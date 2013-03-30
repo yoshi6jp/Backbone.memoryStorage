@@ -2,6 +2,9 @@
 
 Quite simply a memoryStorage adapter for Backbone.localStorage.
 
+- It can store 5 megabytes or more because do not use localStorage.
+- It will not be persisted because it is stored in memory.
+
 ## Usage
 
 Include Backbone.memoryStorage after having included Backbone.js and Backbone.localStorage.js:
